@@ -71,3 +71,32 @@ function handleDaysUntilWeekend(event) {
     }
     alert(daysLeft);
 }
+
+/* Create a switch case for vegetable prices at a supermarket.
+It should have potatoes and carrots as the SAME PRICE per KG,
+but brocolli, cabbage and asparagus as different prices */
+
+function handleVegetablePrices(event) {
+    const vegetable = event.target.value
+
+    let vegePrice;
+    switch (vegetable) {
+        case 'potatoes':
+        case 'carrots':
+            vegePrice = "£12 a kilo"
+            break
+        case 'broccoli':
+            vegePrice = "£14 a kilo"
+            break
+        case 'cabbage':
+            vegePrice = "£9 a kilo"
+            break
+        case 'asparagus':
+            vegePrice = "£18 a kilo"
+            break
+        default:
+            return;
+    }
+
+    alert(vegetable + "sells for" + vegePrice);
+}
