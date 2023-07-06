@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    margin: 20px 20px;
+    padding: 20px 20px;
+    display: block;
+}
+
+p {
+    padding: 20px;
+}
+
+input {
+    margin: 40px;
+}
